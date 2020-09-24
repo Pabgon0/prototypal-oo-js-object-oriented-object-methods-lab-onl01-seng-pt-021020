@@ -20,6 +20,6 @@ BoardMember.prototype.releasePressStatement = function(){
   return `You will see great things from ${this.name}.`
 }
 
-BoardMember.prototype.veto = function(){
+BoardMember.prototype.sayHi = function(){
   return "No, i must disagree"
 }
