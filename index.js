@@ -17,7 +17,7 @@ BoardMember.prototype.doCharity = function(){
 }
 
 BoardMember.prototype.releasePressStatement = function(){
-  return "No, i must disagree"
+  return `You will see great things from ${this.name}.`
 }
 
 BoardMember.prototype.veto = function(){
